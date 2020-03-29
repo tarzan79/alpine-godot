@@ -1,0 +1,6 @@
+version: '3.0'
+services:
+  godot-server:
+    image: 'tarzan79/godot-server:latest'
+    volumes:
+      - /home/grognon/Documents/workspace/godot/rpg/rpg-server/:/home/workspace
